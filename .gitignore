@@ -1,57 +1,23 @@
-# Prerequisites
-*.d
+# Ignorer tous les fichiers par défaut
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ne pas ignorer les fichiers .c, .h et .txt
+!*.c
+!*.h
+!*.txt
+!*.md
+!*.bmp
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Ne pas ignorer les répertoires pour permettre l'inclusion des fichiers spécifiques
+!*/
+# Ignorer tous les fichiers et répertoires cachés
+.*
+!/.gitignore  # Permet d'inclure le fichier .gitignore lui-même
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ne pas inclure le dossier CMakeFiles
+CMakeFiles/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-.idea
-.cmake-build-debug/.cmake/
-.cmake-build-debug/CMakeFiles/
-.cmake-build-debug/Testing/
+# Ne pas ignorer certains fichiers spécifiques
+!.gitignore
+!.gitattributes
+!.gitmodules
