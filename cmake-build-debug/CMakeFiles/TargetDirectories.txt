@@ -1,0 +1,3 @@
+/mnt/c/Users/Dacks/Documents/Travail_ISEN/A1/C/helloSDL/cmake-build-debug/CMakeFiles/helloSDL.dir
+/mnt/c/Users/Dacks/Documents/Travail_ISEN/A1/C/helloSDL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Dacks/Documents/Travail_ISEN/A1/C/helloSDL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
