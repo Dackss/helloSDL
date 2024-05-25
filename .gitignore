@@ -1,0 +1,23 @@
+# Ignorer tous les fichiers par défaut
+*
+
+# Ne pas ignorer les fichiers .c, .h et .txt
+!*.c
+!*.h
+!*.txt
+!*.md
+!*.bmp
+
+# Ne pas ignorer les répertoires pour permettre l'inclusion des fichiers spécifiques
+!*/
+# Ignorer tous les fichiers et répertoires cachés
+.*
+!/.gitignore  # Permet d'inclure le fichier .gitignore lui-même
+
+# Ne pas inclure le dossier CMakeFiles
+CMakeFiles/
+
+# Ne pas ignorer certains fichiers spécifiques
+!.gitignore
+!.gitattributes
+!.gitmodules
