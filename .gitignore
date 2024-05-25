@@ -5,6 +5,8 @@
 !*.c
 !*.h
 !*.txt
+!*.md
+!*.bmp
 
 # Ne pas ignorer les répertoires pour permettre l'inclusion des fichiers spécifiques
 !*/
