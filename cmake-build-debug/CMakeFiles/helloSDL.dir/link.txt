@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/helloSDL.dir/main.c.o -o helloSDL  /usr/lib/x86_64-linux-gnu/libSDL2.so 
